@@ -12,18 +12,7 @@ def Mypow (a,b):
     while (cont < b):
         res = res * a
         cont = cont +1
-    return res
-
-def isprime (a):
-    if a < 1:
-        return False
-    elif a == 2:
-        return True
-    else:
-        for i in range(2, a):
-            if a % i == 0:
-                return False
-        return True  
+    return res 
 
 def getNros(n):
     t = 1
