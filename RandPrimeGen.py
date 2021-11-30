@@ -73,7 +73,7 @@ def prime_candidate (b):
     return n
 
 def generate_Prime (b):
-    s = 72
+    s = 15
     n = prime_candidate(b)
     while (miller(n,s) == True):
         n = n+2
